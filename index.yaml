@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  keycloak:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-19T01:20:48.915563+07:00"
+    description: No database storage keycloak
+    digest: c81c49cdf1f67c769670080e8ace8ff40a2251336432279bf31edc711aa42ec0
+    name: keycloak
+    type: application
+    urls:
+    - keycloak-0.1.0.tgz
+    version: 0.1.0
   timeserver:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-18T22:52:06.282839+07:00"
+    created: "2024-01-19T01:20:48.915808+07:00"
     description: A Helm chart for Kubernetes
     digest: 07950aa064975c8b6372b92c37ded3230dfcb9010839620f8db4769fd83a96e4
     name: timeserver
     type: application
     urls:
-    - https://tphiep.github.io/test-helm-repos/timeserver-0.1.0.tgz
+    - timeserver-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-18T22:52:06.281834+07:00"
+generated: "2024-01-19T01:20:48.914142+07:00"
