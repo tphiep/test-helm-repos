@@ -9,6 +9,6 @@ entries:
     name: timeserver
     type: application
     urls:
-    - https://tphiep.github.io/test-helm-repos/timeserver-0.1.0.tgz
+    - https://tphiep.github.io/test-helm-repos/timeserver/timeserver-0.1.0.tgz
     version: 0.1.0
 generated: "2024-01-18T22:52:06.281834+07:00"
